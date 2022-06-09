@@ -21,27 +21,6 @@
         </license>
     </licenses>
 
-    <issueManagement>
-        <system>GitHub</system>
-        <url>https://github.com/DiscordSRV/DiscordSRV/issues</url>
-    </issueManagement>
-
-    <scm>
-        <connection>scm:git:https://github.com/DiscordSRV/DiscordSRV.git</connection>
-        <url>https://github.com/DiscordSRV/DiscordSRV/</url>
-    </scm>
-
-    <distributionManagement>
-        <repository>
-            <id>scarsz-nexus</id>
-            <url>https://nexus.scarsz.me/content/repositories/releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>scarsz-nexus</id>
-            <url>https://nexus.scarsz.me/content/repositories/snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
-
     <properties>
         <!-- Manifest values, can be overriten with Jenkins by adding additional build parameters
           -Dbuild.number=${BUILD_NUMBER} -Dbuild.origin=${BUILD_URL} -Dgit.revision=${GIT_COMMIT} -->
